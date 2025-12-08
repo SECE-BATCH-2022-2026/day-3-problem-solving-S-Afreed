@@ -3,10 +3,10 @@ import java.util.*;
 
 class UserMainCode {
     public static String[] removeDuplicates(String[] arr) {
-        TreeSet<String> set = new TreeSet<>(); // Natural sorting, Uppercase first
+        TreeSet<String> set = new TreeSet<>(); 
 
         for (String s : arr) {
-            set.add(s);  // Remove duplicates case-sensitively
+            set.add(s);  
         }
 
        String[] res = new String[set.size()];
